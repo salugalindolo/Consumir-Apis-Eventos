@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function actualizarEvento() {
   try {
-    const eventId = '05iQyuvjKS29EheSwHrj';
+    const eventId = 'iGuOGgHxxLpCbgcn14Vm';
     const url = `https://apirest-nodehost.onrender.com/apiV1/events/${eventId}`;
 
     // Datos actualizados del evento
