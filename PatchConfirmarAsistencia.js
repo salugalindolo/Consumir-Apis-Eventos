@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function confirmarAsistencia() {
   try {
-    const eventId = '05iQyuvjKS29EheSwHrj';
+    const eventId = 'iGuOGgHxxLpCbgcn14Vm';
     const email = 'galindolucia26@gmail.com';
 
     const url = `https://apirest-nodehost.onrender.com/apiV1/events/${eventId}/confirmar/${email}`;
